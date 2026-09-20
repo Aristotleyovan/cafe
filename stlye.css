@@ -41,7 +41,7 @@ a{
 }
 .button{
     background-color: #EFA866;
-    border-radius: 10px;
+    border-radius: 40px;
 }
 
 .one h3
@@ -84,3 +84,14 @@ a{
     padding: 15px;
     font-size: 30px;
 }
+.home{
+    display:flex;
+    justify-content:space-evenly;
+    padding-top: 10px;
+
+    
+}
+
+
+
+
