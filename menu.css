@@ -31,67 +31,44 @@ a{
    
      display: flex;
      justify-content: space-between; 
-     padding: px; 
-   
+     
+
 }
 .logo img{
    margin-left:60px;
 }
-.menu{
-    font-family: poppins,sans-serif;
-    font-weight: 500px;
-    color: black;
-    padding-left: 46%;
-    padding-bottom: 10px;
-}
-.pic{
-    margin-left:20px;
-
-  
-
-}
-
-.main{
-    /* background-color: bisque; */
+ 
+.main-card{
     display: flex;
-    padding-left: 190px;
-    gap: 80px;
+    margin-bottom: 10px;
+    
 }
-.frist-menu{
-    background-color:rgb(83, 41, 42);
-    width: 500px;
-    height: 500px;   
+.text{
+    padding-left: 700px;
+    color:rgb(251, 88, 73);
 
 }
-.one-div{
-    display: flex; 
+.card-1{
+padding-right: 30px;
+padding-left: 180px;
+
 }
-.images{
-    padding-left: 50px;
-   margin-top: 20px;
-   margin-right: 90px;
+
+.card-2{
+    padding-left: 80px;
+    
+}
+.card-3{
+    padding-left: 100px;
    
 }
-.iteams{
+.text-button{
+    height: 50px;
+    width:100%;
+    border-radius: 50px;
+    background-color: bisque;
+}
+.text-button:hover{
+ background-color: lightcoral;
+}
 
-  padding-left: 20px;
-  margin-top: 60px;
-  margin-right: 120px;
-}
-.rupees{
-  margin-top: 60px;
-}
-.images:hover{
-    opacity: 0.4;
-}
-.iteams:hover{
-    opacity: 0.4;
-}
-.rupees:hover{
-    opacity: 0.4;
-}
-.second-menu{
-    background-color: rgb(83, 41, 42);
-    width: 500px;
-    height: 500px;
-}

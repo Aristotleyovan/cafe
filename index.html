@@ -9,13 +9,13 @@
 
       <nav class="nav">
           <div class="logo">
-            <img src="./asset/logo.png" width="150px" alt="logo">
+            <img src="./asset/logo.png" width="150px" alt="logo"> 
           </div>
           <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="About.html">ABOUT</li>
             <li><a href="menu.html">MENU</a></li>
-            <li><a href="">CONTACT US</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
           </ul>
       </nav>
 
@@ -26,7 +26,7 @@
           <h1 >Good Coffee</h1>    
           <h2 >Brings People Together</h2>
           <p>Enjoy the rich aroma,smoth taste.and cozy </br>vibes at Leo's cafe.Your perfect cup is waiting!</p>
-          <button class="button"  style="font-style: normal;height: 60px;width: 50%;">Make A Reservation</button>
+          <button class="button"  style="font-style: normal;height: 60px;width: 50%;" onclick=button()>Make A Reservation</button>
        </div >
        <div class="cup">
           <img src="./asset/d96f37a10b258928b768551509ec4bfd-removebg-preview.png" height="650px" alt="cup">
@@ -57,5 +57,9 @@
     </div>
   
   </body>
-
+<script>
+  function button(){
+    window.location.href="contact.html";
+  }
+</script>
 </html>

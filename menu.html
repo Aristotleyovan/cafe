@@ -15,74 +15,56 @@
             <li><a href="index.html">HOME</a></li>
             <li><a href="About.html">ABOUT</li>
             <li><a href="menu.html">MENU</a></li>
-            <li><a href="">CONTACT US</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
           </ul>
-       </nav>
+       </nav>    
 
-      <div class="menu">
-        <h4 class="pic">image</h4>
-        <h1 class="">MENU</h1>
-      </div>
-   <div class="main">
-      <div class="frist-menu">
+<div class="text-menu">
+   <h1 class="text"> MENU</h1>
+</div>
 
-       <div  class="one-div">
-         <img class="images" src="./asset/cake.jpg" height="100px">
-         <h3 class="iteams">hjiikkj</h3>
-         <h4 class="rupees">RS:120<h4>
-       </div>
+<div class="main-card">
+   <div class="card-1">
+     <img src="./asset/TEA.jpg" width="300px"  height="250px"  style="border-radius: 30px;">
+       <div>
+          <button class="text-button" onclick=next() ><h2> Tea & Coffee </h2> </button>
+       </div>  
+   </div>
+   <div class="card-2">
+       <img src="./asset/ICE COFFEE.jpg" width="300px"  height="250px"   style="border-radius: 30px;">
+        <div class=" menu-button">
+         <button class="text-button" onclick= coldcoffee() ><h2> cold coffee</h2> </button>
+        </div>  
+   </div>
+   <div class="card-3">
+     <img src="./asset/cakes.jpg" width="300px"  height="250px"  style="border-radius: 30px;">
+        <div>
+           <button class="text-button" onclick=cake()><h2> Cakes & Desserts </h2> </button>
+        </div>  
+   </div> 
 
-        <div class="one-div">
-           <img class="images" src="./asset/cake.jpg" height="100px"> 
-           <h3 class="iteams">hjiikkj</h3>
-           <h4 class="rupees">RS:120<h4>
-        </div>
+</div>
+<div class="main-card">
+   <div class="card-1">
+     <img class="coffee-1" src="./asset/sandwich.jpg" width="300px" height="250px"  style="border-radius: 30px;">
+        <div>
+           <a href="snacks.html"><button class="text-button" ><h2> Snacks & Bites</h2> </button> </a>     
+       </div> 
+   </div>
+   <div class="card-2">
+     <img src="./asset/🥓 Loaded Bacon Cheese Fries 🍟🧀__These Loaded….jpg" width="300px" height="250px"  style="border-radius: 30px;">
+       <div>
+          <a href="./signature.html"><button class="text-button"><h2> Signature specials </h2> </button> </a>
+       </div> 
+   </div>
+   <div class="card-3">
+     <img src="./asset/lava-cake.jpg" width="300px" height="250px"  style="border-radius: 30px;">
+        <div>
+          <a href="Carame.html"> <button class="text-button"><h2> Caramel pudding </h2> </button> </a>
+       </div> 
+   </div>
 
-        <div  class="one-div">
-         <img class="images" src="./asset/cake.jpg" height="100px">
-         <h3 class="iteams">hjiikkj</h3>
-         <h4 class="rupees">RS:120<h4>
-        </div>
-
-        <div  class="one-div">
-         <img class="images" src="./asset/cake.jpg" height="100px">
-         <h3 class="iteams">hjiikkj</h3>
-         <h4 class="rupees">RS:120<h4>
-        </div>
-  
-      </div> 
-
-      <div class="second-menu" >
-
-        <div  class="one-div">
-         <img class="images" src="./asset/cake.jpg" height="100px"> 
-         <h3 class="iteams">hjiikkj</h3>
-         <h4 class="rupees">RS:120<h4>
-       </div>
-
-       <div  class="one-div">
-         <img class="images" src="./asset/cake.jpg" height="100px">
-         <h3 class="iteams">hjiikkj</h3>
-         <h4 class="rupees">RS:120<h4>
-       </div>
-           
-       <div  class="one-div">
-         <img class="images" src="./asset/cake.jpg" height="100px">
-         <h3 class="iteams">hjiikkj</h3>
-         <h4 class="rupees">RS:120<h4>
-       </div>
-      
-       <div  class="one-div">
-         <img class="images" src="./asset/cake.jpg" height="100px">
-         <h3 class="iteams">hjiikkj</h3>
-         <h4 class="rupees">RS:120<h4>
-       </div>
-      </div>
-    </div> 
-       
-
-
-
+</div> 
 
 
 
@@ -90,11 +72,16 @@
 
     
 </body>
+<script>
+   function next(){
+window.location.href="coffee.html";
+}
+function coldcoffee(){
+window.location.href="ice-coffee.html";
+}
+function cake(){
+window.location.href="cakes.html";
+}
+</script>
 </html>
-
-
-
-
-
-
 
