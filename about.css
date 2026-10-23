@@ -32,21 +32,17 @@ a{
 }
 .About{
   display: flex;
-  justify-content: center;
-  padding: 20px; 
-  /* background-color: #fff2e3; */
+  justify-content: space-evenly;
 
 
 }
 
 .about-img{
   padding-top: 70px;
-  padding-left: 150px;
 
 }
 
 .text-2 h4{
-    padding-bottom: 1px;
     font-family: poppins,sans-serif;
     font-weight: 500px;
     font-size: 20px;
