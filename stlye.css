@@ -21,13 +21,12 @@ ul{
 li{
     margin-left: 40px;
     margin-bottom: 30px;
-  
-
 }
+
 li a:hover{
     text-decoration: underline;
-    
 }
+
 a{
     font-family: poppins,sans-serif;
     font-weight: 500px;
@@ -43,8 +42,10 @@ a{
       position: fixed;  
       width: 100%;    
 }
-.logo img{
-   margin-left:80px;
+.logo {
+   margin-left:85px;
+   margin-top: 10px
+   
 }
 
 .cup,.home-page{

@@ -1,49 +1,63 @@
-
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
 body{
     background-image: url(./asset/file_000000002c048208b455b50a76c958e4.png);
 }
 .nav,h1,ul,li{
-     display: inline-block; 
+    display: inline-block;
 }
  
 ul{
-   margin-right: 50px; 
-    font-size: 25px;  
+  display: flex;
+  margin-right: 50px;
+  font-size: 25px;
 }
 
 
 li{
-    margin-left: 40px; 
+    margin-left: 40px;
     margin-bottom: 30px;
+  
 
 }
 li a:hover{
     text-decoration: underline;
+    
 }
 a{
     font-family: poppins,sans-serif;
     font-weight: 500px;
     font-size: 20px;
-    color: black;
+    color:black;
     text-decoration: none;
-}    
+}
 .nav{
    
-     display: flex;
-     justify-content: space-between; 
-     
-
+    display: flex;
+     justify-content: space-between;
+      align-items: center;  
+      position: fixed;  
+      width: 100%;    
 }
-.logo img{
-   margin-left:60px;
+.logo {
+   margin-left:85px;
+   margin-top: 10px
+   
 }
  
+.section{
+    margin-top: 50px;
+}
 .main-card{
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom:10px;
     
 }
 .text{
+    margin-top: 80px;
     padding-left: 700px;
     color:rgb(251, 88, 73);
 
