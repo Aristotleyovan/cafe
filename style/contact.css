@@ -1,0 +1,121 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body {
+     margin: 0;
+    font-family: poppins, sans-serif;
+    background-image: url(../asset/background.png);
+    color: rgb(16, 16, 16);
+}
+.nav,h1,ul,li{
+    display: inline-block;
+}
+ 
+ul{
+  display: flex;
+  margin-right: 50px;
+  font-size: 25px;
+}
+
+
+li{
+    margin-left: 40px;
+    margin-bottom: 30px;
+  
+
+}
+li a:hover{
+    text-decoration: underline;
+    
+}
+a{
+    font-family: poppins,sans-serif;
+    font-weight: 500px;
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+}
+.nav{
+   
+    display: flex;
+     justify-content: space-between;
+      align-items: center;  
+     
+}
+.logo {
+   margin-left:85px;
+   margin-top: 10px
+   
+}
+.main {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    
+}
+
+.form {
+    width: 35%;
+
+} 
+.contact h4{
+    margin-top: 40px;
+    font-family: poppins,sans-serif;
+    font-weight: 500px;
+    font-size: 20px;
+    color:rgb(251, 88, 73);
+    margin-bottom: 50px;
+}
+
+.contact h1 {
+    font-size: 30px; 
+
+}
+p{
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    margin-top: 60px;
+    text-align: center; 
+
+}
+
+.form {
+    background: white;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+input {
+    width: 95%;
+    padding: 12px;
+    margin: 7px 0;
+    border: 1px solid #ddd;
+}
+textarea{
+    width: 95%;
+    height: 70px;
+    padding: 12px;
+    margin: 7px 0;
+    border: 1px solid #ddd;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background: #c9362b;
+    color: white;
+    cursor: pointer;
+}
+
+
+

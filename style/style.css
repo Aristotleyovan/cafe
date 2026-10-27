@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    background-image: url(../asset/background.png);
+    
+}
+.nav,h1,ul,li{
+    display: inline-block;
+}
+ 
+ul{
+  display: flex;
+  margin-right: 50px;
+  font-size: 25px;
+}
+
+
+li{
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+a{
+    font-family: poppins,sans-serif;
+    font-weight: 500px;
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+}
+.nav{
+   
+    display: flex;
+     justify-content: space-between;
+      align-items: center;  
+      position: fixed;  
+      width: 100%;    
+}
+.logo {
+   margin-left:85px;
+   margin-top: 10px
+   
+}
+
+.cup,.home-page{
+     display: flex;
+}
+
+ 
+ .home-page{
+       
+     padding-top: 60px;
+     padding-left: 70px;
+
+}
+
+
+.text-1{
+   padding: 120px;
+}
+
+
+.text-1 h3
+{
+    padding-bottom: 20px;
+    font-family: poppins,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color:rgb(251, 88, 73);
+    
+}
+.text-1 h1{
+
+    font-family:Poppins, sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    color:light black;
+
+}
+.text-1 h2
+{
+
+    padding-top: 15px;
+    font-size: 44px;
+    color:black;
+}
+.text-1 p
+{
+    color:black;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.button{
+    background-color:rgb(162, 48, 5);
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+
+    
+}
+.button:hover{
+    background-color: rgb(9, 9, 9);
+    
+}
+.home{
+    display:flex;
+    justify-content:space-evenly;
+   
+
+    
+}
+
+
+
+
+
+
+
+

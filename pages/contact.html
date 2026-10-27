@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> leo's cafe</title>
+    <link rel="stylesheet" href="/style/contact.css">
+    </head>
+  <body>
+
+      <nav class="nav">
+          <div class="logo">
+            <img src="../asset/logo.png" width="150px" alt="logo"> 
+          </div>
+          <ul>
+             <li><a href="/index.html">HOME</a></li>
+            <li><a href="/pages/About.html">ABOUT</li>
+            <li><a href="/pages/menu.html">MENU</a></li>
+            <li><a href="/pages/contact.html">CONTACT US</a></li>
+          </ul>
+      </nav>
+
+
+<div  class="main">
+  <div>
+    
+    <div class="contact">
+        <h4>CONTACT US</h4>
+        <h1>Make a Reservation<br>Or Visit Our Cafe</h1>
+        <p>Enjoy delicious food and fresh coffee.</p>
+
+       <div class="card">
+           <h3>Phone Number</h3>
+            <p>9876543210</p>
+        </div>
+
+        <div class="card">
+            <h3>Email</h3>
+            <p>hello@leoscafe.com</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="form">
+    <h2>Table Reservation</h2>
+<!-- 
+    <form onsubmit="sendMail(event)">
+        <input type="text" placeholder="Your Name" name="u_name" required>
+        <input type="email" placeholder="Your Email" name="u_email">
+        <input type="tel" placeholder="Phone Number" name="phone" required>
+        <input type="number" placeholder="Number of Guests" name="guest">
+        <input type="date" name="date">
+        <input type="time" name="time">
+        <textarea placeholder="Message" name="msg"></textarea>
+        <button type="submit">Make a Reservation</button>
+  </form> -->
+
+  <form onsubmit="sendMail(event)">
+    <input type="text" placeholder="Your Name" name="u_name" required>
+    <input type="email" placeholder="Your Email" name="u_email">
+    <input type="tel" placeholder="Phone Number" name="phone" required>
+    <input type="number" placeholder="Number of Guests" name="guest">
+    <input type="date" name="date">
+    <input type="time" name="time">
+    <textarea placeholder="Message" name="msg"></textarea>
+  <button type="submit">Make a Reservation</button>
+</form>
+  </div>
+</div>
+<script src="https://jsdelivr.net"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="/script/contact.js"></script>
+</body>
+</html>
