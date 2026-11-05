@@ -49,6 +49,9 @@ a{
    margin-top: 10px
    
 }
+.logo img{
+    width: 150px;
+}
 .main {
     display: flex;
     gap: 30px;

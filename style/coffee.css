@@ -1,0 +1,53 @@
+ body{
+        background-image: url(../asset/background.png);
+      }
+      .main{
+        display: flex;
+        
+      }
+      .frist-menu{
+        margin-left: 60px;
+        width: 650px;
+      }
+      .main .frist-menu .tea img{
+         width: 230px; 
+        height: 200px;
+      }
+      .second-menu{
+        margin-left:60px;
+        width: 650px;
+      }
+      .main .second-menu .tea img{
+         width: 230px; 
+        height: 200px;
+      }
+      .heading{
+        padding-left: 650px;
+        margin-bottom: 0;
+      }
+      .tea{
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+        border: black;
+        border: solid thin;
+      }
+     
+      .text{
+        padding-left: 40px;
+        width: 250px;
+  
+
+      }
+      .rs{
+      margin-left: auto;
+      min-width: 80px;
+      text-align: right;
+      }
+      
+      .button{
+        margin-left:630px; 
+        width: 200px;
+        border-radius: 20px;
+        margin-top: 10px;
+      }
