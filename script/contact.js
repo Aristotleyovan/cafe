@@ -22,6 +22,4 @@
       );
     }
 
-      function button(){
-    window.location.href="./pages/contact.html";
-  }
+     
