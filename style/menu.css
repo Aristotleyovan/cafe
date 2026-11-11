@@ -1,109 +1,100 @@
-*{
-     margin: 0;
-    padding: 0;
-    box-sizing: content-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
 }
-body{
-    background-image: url(../asset/background.png);
+body {
+  background-image: url(../asset/background.png);
 }
-.nav,h1,ul,li{
-    display: inline-block;
+.nav,
+h1,
+ul,
+li {
+  display: inline-block;
 }
- 
-ul{
+
+ul {
   display: flex;
   margin-right: 50px;
   font-size: 25px;
 }
 
-
-li{
-    margin-left: 40px;
-    margin-bottom: 30px;
-  
-
+li {
+  margin-left: 40px;
+  margin-bottom: 30px;
 }
-li a:hover{
-    text-decoration: underline;
-    
+li a:hover {
+  text-decoration: underline;
 }
-a{
-    font-family: poppins,sans-serif;
-    font-weight: 500px;
-    font-size: 20px;
-    color:black;
-    text-decoration: none;
+a {
+  font-family: poppins, sans-serif;
+  font-weight: 500px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
 }
-.nav{
-   
-    display: flex;
-     justify-content: space-between;
-      align-items: center;  
-      position: fixed;  
-      width: 100%;    
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
 }
 .logo {
-   margin-left:85px;
-   margin-top: 10px
-   
+  margin-left: 85px;
+  margin-top: 10px;
 }
-.nav .logo img{
-   width: 150px;
-}
- 
-.section{
-    margin-top: 50px;
-}
-.main-card{
-    display: flex;
-    margin-bottom:10px;
-    
-}
-.text{
-    margin-top: 80px;
-    padding-left: 700px;
-    color:rgb(251, 88, 73);
-     font-family: poppins,sans-serif;
-
-}
-.card-1{
-padding-right: 30px;
-padding-left: 180px;
-
-}
-.section .main-card .card-1 img{
-    width: 300px;
-    height: 250px;
-    border-radius: 30px;
+.nav .logo img {
+  width: 150px;
 }
 
-.card-2{
-    padding-left: 80px;
-    
+.section {
+  margin-top: 50px;
 }
-.section .main-card .card-2 img{
-     width: 300px;
-    height: 250px;
-    border-radius: 30px;
+.main-card {
+  display: flex;
+  margin-bottom: 10px;
 }
-
-.card-3{
-    padding-left: 100px;
-   
+.text {
+  margin-top: 80px;
+  padding-left: 700px;
+  color: rgb(251, 88, 73);
+  font-family: poppins, sans-serif;
 }
-.section .main-card .card-3 img{
-    width: 300px;
-    height: 250px;
-    border-radius: 30px;   
+.card-1 {
+  padding-right: 30px;
+  padding-left: 180px;
 }
-
-.text-button{
-    height: 50px;
-    width:100%;
-    border-radius: 50px;
-    background-color: bisque;
-}
-.text-button:hover{
- background-color: lightcoral;
+.section .main-card .card-1 img {
+  width: 300px;
+  height: 250px;
+  border-radius: 30px;
 }
 
+.card-2 {
+  padding-left: 80px;
+}
+.section .main-card .card-2 img {
+  width: 300px;
+  height: 250px;
+  border-radius: 30px;
+}
+
+.card-3 {
+  padding-left: 100px;
+}
+.section .main-card .card-3 img {
+  width: 300px;
+  height: 250px;
+  border-radius: 30px;
+}
+
+.text-button {
+  height: 50px;
+  width: 100%;
+  border-radius: 50px;
+  background-color: bisque;
+}
+.text-button:hover {
+  background-color: burlywood;
+}

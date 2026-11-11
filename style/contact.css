@@ -1,124 +1,114 @@
-*{
-     margin: 0;
-    padding: 0;
-    box-sizing: content-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
 }
 body {
-     margin: 0;
-    font-family: poppins, sans-serif;
-    background-image: url(../asset/background.png);
-    color: rgb(16, 16, 16);
+  margin: 0;
+  font-family: poppins, sans-serif;
+  background-image: url(../asset/background.png);
 }
-.nav,h1,ul,li{
-    display: inline-block;
+.nav,
+h1,
+ul,
+li {
+  display: inline-block;
 }
- 
-ul{
+
+ul {
   display: flex;
   margin-right: 50px;
   font-size: 25px;
 }
 
-
-li{
-    margin-left: 40px;
-    margin-bottom: 30px;
-  
-
+li {
+  margin-left: 40px;
+  margin-bottom: 30px;
 }
-li a:hover{
-    text-decoration: underline;
-    
+li a:hover {
+  text-decoration: underline;
 }
-a{
-    font-family: poppins,sans-serif;
-    font-weight: 500px;
-    font-size: 20px;
-    color:black;
-    text-decoration: none;
+a {
+  font-family: poppins, sans-serif;
+  font-weight: 500px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
 }
-.nav{
-   
-    display: flex;
-     justify-content: space-between;
-      align-items: center;  
-     
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo {
-   margin-left:85px;
-   margin-top: 10px
-   
+  margin-left: 85px;
+  margin-top: 10px;
 }
-.logo img{
-    width: 150px;
+.logo img {
+  width: 150px;
 }
 .main {
-    display: flex;
-    gap: 30px;
-    justify-content: space-evenly;
-    margin-top: 40px;
-    
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  margin-top: 40px;
 }
 
 .form {
-    width: 35%;
-
-} 
-.contact h4{
-    margin-top: 40px;
-    font-family: poppins,sans-serif;
-    font-weight: 500px;
-    font-size: 20px;
-    color:rgb(251, 88, 73);
-    margin-bottom: 50px;
+  width: 35%;
+  border-radius: 10px;
+}
+.contact h4 {
+  margin-top: 40px;
+  font-family: poppins, sans-serif;
+  font-weight: 500px;
+  font-size: 20px;
+  color: rgb(251, 88, 73);
+  margin-bottom: 50px;
 }
 
 .contact h1 {
-    font-size: 30px; 
-
+  font-size: 30px;
 }
-p{
-    margin-top: 40px;
+p {
+  margin-top: 10px;
 }
 
 .card {
-    background: white;
-    padding: 15px;
-    margin-top: 60px;
-    text-align: center; 
-
+  background: white;
+  padding: 15px;
+  margin-top: 60px;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .form {
-    background: white;
-    padding: 25px;
-    margin-top: 30px;
+  background: white;
+  padding: 25px;
+  margin-top: 30px;
 }
 
 .form h2 {
-    text-align: center;
+  text-align: center;
 }
 
 input {
-    width: 95%;
-    padding: 12px;
-    margin: 7px 0;
-    border: 1px solid #ddd;
+  width: 95%;
+  padding: 12px;
+  margin: 7px 0;
+  border: 1px solid #ddd;
 }
-textarea{
-    width: 95%;
-    height: 70px;
-    padding: 12px;
-    margin: 7px 0;
-    border: 1px solid #ddd;
+textarea {
+  width: 95%;
+  height: 70px;
+  padding: 12px;
+  margin: 7px 0;
+  border: 1px solid #ddd;
 }
 button {
-    width: 100%;
-    padding: 12px;
-    background: #c9362b;
-    color: white;
-    cursor: pointer;
+  width: 100%;
+  padding: 12px;
+  background: #c9362b;
+  color: white;
+  cursor: pointer;
 }
-
-
-
