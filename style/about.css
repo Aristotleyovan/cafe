@@ -24,8 +24,8 @@ li {
   margin-bottom: 30px;
 }
 li a:hover {
-  text-decoration: underline;
-}
+   text-decoration: underline; 
+} 
 a {
   font-family: poppins, sans-serif;
   font-weight: 500px;
@@ -79,7 +79,6 @@ a {
   font-weight: 400;
   margin-top: 30px;
   margin-bottom: 25px;
-
 }
 
 .About .text-2 div {
